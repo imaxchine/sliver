@@ -5,6 +5,6 @@
 credits:
 Apple Tech 752 of www.appletech752.com 
 
-Ceng De Ala from youtube.com/c/CengDealaWangit
+Ceng De Ala from youtube.com/c/CengDealaWangit for hosting server 2
 
-imaxchine 
+-imaxchine 
