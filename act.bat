@@ -1,4 +1,5 @@
 cd C:\lib
+
 @ECHO off
 cls
 :start
