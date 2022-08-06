@@ -1,4 +1,4 @@
-cd C:\lib
+cd lib
 @ECHO off
 cls
 :start
@@ -17,30 +17,42 @@ goto start
 ideviceactivation activate -s sliverby.000webhostapp.com/sliver.php -d
 @ECHO OFF
 
-:choice
+:choice1
 set /P c=Did it work?[Y/N]?
 if /I "%c%" EQU "Y" goto :end
 if /I "%c%" EQU "N" goto :ots1
+ECHO "%c%" is not valid, try again
+ECHO.
+goto choice1
 
 :ots1
 set /P c=Try other server?[Y/N]?
 if /I "%c%" EQU "Y" goto :2
 if /I "%c%" EQU "N" goto :end
+ECHO "%c%" is not valid, try again
+ECHO.
+goto ots1
 
 goto end
 :2
 ideviceactivation activate -s cengdealajr.gearhostpreview.com/sliver.php -d
 @ECHO OFF
 
-:choice
+:choice2
 set /P c=Did it work?[Y/N]?
 if /I "%c%" EQU "Y" goto :end
 if /I "%c%" EQU "N" goto :ots2
+ECHO "%c%" is not valid, try again
+ECHO.
+goto choice2
 
 :ots2
 set /P c=Try other server?[Y/N]?
 if /I "%c%" EQU "Y" goto :1
 if /I "%c%" EQU "N" goto :end
+ECHO "%c%" is not valid, try again
+ECHO.
+goto ots2
 
 goto end
 :end
