@@ -1,6 +1,5 @@
-1. Drag lib to C:\
-2. Connect your device with USB
-3. Run act.bat
+1. Connect your device with USB
+2. Run act.bat
 
 credits:
 Apple Tech 752 of www.appletech752.com 
