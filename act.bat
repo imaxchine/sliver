@@ -1,4 +1,4 @@
-cd C:\lib
+cd lib
 
 @ECHO off
 cls
