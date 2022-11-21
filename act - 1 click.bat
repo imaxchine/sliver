@@ -1,2 +1,2 @@
 cd lib 
-ideviceactivation activate -s sliverby.000webhostapp.com/sliver.php -d
+ideviceactivation activate -s cengdealajr.gearhostpreview.com/sliver.php -d
